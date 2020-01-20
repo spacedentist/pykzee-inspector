@@ -18,7 +18,7 @@
   }
 
   h2 {
-    font-height: 1.5em;
+    font-size: 1.5em;
     margin: 0;
     padding: 0.25em 1em;
     color: white;
