@@ -109,7 +109,7 @@ class InspectorConnection:
         unsubscribe = self.plugin.subscribe(
             functools.partial(self.update, pathstr),
             path,
-            ("core", "commands", pathstr),
+            ("sys", "commands", pathstr),
         )
         self.subscriptions[pathstr] = Subscription(unsubscribe)
 
